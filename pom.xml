@@ -111,8 +111,7 @@
 			        <execution>
 			            <id>default-report</id>
 			            <phase>prepare-package</phase>
-			            <goals><goal>report</goal></goals>
-					<goals><goal>package</goal></goals>
+			            <goals><goal>package</goal></goals>
 			        </execution>
 			    </executions>
 			</plugin>
