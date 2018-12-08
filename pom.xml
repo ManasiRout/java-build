@@ -1,3 +1,20 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @ManasiRout Sign out
+0
+0 0 ManasiRout/java-build
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+java-build/pom.xml
+9725654  6 minutes ago
+@ManasiRout ManasiRout Update pom.xml
+     
+116 lines (107 sloc)  3.69 KB
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -26,12 +43,12 @@
 	</properties>
 
 	<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-29-3.ap-south-1.compute.internal-releases</name>
-        <url>http://13.126.5.124:8081/artifactory/libs-release-local</url>
-    </repository>
-      </distributionManagement>
+       <repository>
+       	 <id>central</id>
+           <name>ip-172-31-29-3.ap-south-1.compute.internal-releases</name>
+           <url>http://13.126.193.16:8081/artifactory/libs-release-local</url>
+       </repository>
+	</distributionManagement>
 
 	<scm>
 		<connection>scm:git:git@github.com:ManasiRout/java-build.git</connection>
@@ -113,3 +130,16 @@
 		</plugins>
 	</build>
 </project>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
