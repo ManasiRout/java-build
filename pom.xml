@@ -30,12 +30,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<repository>
 			<id>central</id>
 			<name>releases</name>
-			<url>https://13.126.193.16:8081/artifactory/libs-release-local</url>
+			<url>http://13.126.193.16:8081/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>snapshots</name>
-			<url>https://13.126.193.16:8081/artifactory/libs-snapshot-local</url>
+			<url>http://13.126.193.16:8081/artifactory/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 
